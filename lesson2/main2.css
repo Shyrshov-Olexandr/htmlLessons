@@ -1,0 +1,53 @@
+body{
+    background: snow;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    color: midnightblue;
+}
+.cards {
+    height: 300px;
+    width: 450px;
+    background: snow;
+    color: midnightblue;
+    border: 5px solid midnightblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20%;
+}
+.card {
+    box-sizing: border-box;
+    width: 100%;
+    height: 90%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom {
+    width: 30%;
+    border-radius: 5px;
+    border: 2px solid midnightblue;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: snow;
+}
+.bottom:hover{
+    background: antiquewhite;
+    border: 2px solid maroon;
+}
+p {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: midnightblue;
+}
