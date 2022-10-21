@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.page-own {
+    height: 150px;
+    background: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.page-own-first {
+    height: 30%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    border-radius: 5%;
+    border: 4px solid yellowgreen;
+    background: floralwhite;
+}
+.page-own-second {
+    height: 30%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    border-radius: 5%;
+    border: 4px solid yellowgreen;
+    background: floralwhite;
+}
+.page-two{
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    background: bisque;
+    align-items: flex-start;
+}
+.page-two-first{
+    height: 150%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+    border-radius: 5%;
+    border: 4px solid maroon;
+    background: cornsilk;
+}
+.page-two-second{
+    height: 150%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+    border-radius: 5%;
+    border: 4px solid maroon;
+    background: cornsilk;
+}
+.page-two-third{
+    height: 150%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+    border-radius: 5%;
+    border: 4px solid maroon;
+    background: cornsilk;
+}
+.page-two-text{
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    background: bisque;
+    align-items: center;
+    padding: 5%;
+}
+.page-three{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background: goldenrod;
+}
+p {
+    font-family: Arial, Sans, serif;
+    font-size: 20px;
+    color:indigo;
+}
